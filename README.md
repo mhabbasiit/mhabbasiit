@@ -91,8 +91,7 @@ The pipelines and infrastructure developed here support ongoing AD/ADRD and Park
 * Scalable containerized neuroimaging workflows
 * Standards-aligned biomedical data pipelines
 * Automated validation and reporting systems
-* ClinicalMoVi: clinical video analysis framework in development
-* NeuroQA: brain MRI reasoning benchmark under review
+* NeuroQA: brain MRI reasoning benchmark under review (https://neuroqa.stanford.edu)
 
 ---
 
