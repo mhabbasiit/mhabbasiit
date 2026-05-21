@@ -1,53 +1,104 @@
 # Mohammad Hassan Abbasi
 
-**Research Software Engineer · Stanford Translational AI Lab**
+**Research Software Engineer & Data Scientist · Stanford Translational AI Lab (STAI)**
+*Biomedical Imaging · Neuroinformatics · Reproducible Research Software*
 
-I design and maintain open-source preprocessing pipelines for biomedical imaging, focused on reproducibility, automated quality control, and standards-aligned engineering for NIH-funded neuroimaging research.
+I develop and maintain open-source research software infrastructure for large-scale biomedical imaging and neuroscience research at Stanford University. My work focuses on standards-aware preprocessing pipelines, automated quality control, and reproducible deployment for NIH-funded studies in Alzheimer's disease (AD/ADRD), Parkinson's disease, and related neurodegenerative disorders.
+
+I work as the engineering counterpart to research projects spanning neuroimaging, clinical video analysis, and large-scale biomedical data integration.
 
 ---
 
-## 🧠 Featured Open-Source Pipelines
+## 🧠 Open-Source Biomedical Imaging Pipelines
 
 ### [sMRI Processing Pipeline](https://github.com/mhabbasiit/sMRI) — `v1.0.0`
-End-to-end structural MRI preprocessing with SynthStrip-based brain extraction, MNI152 registration, N4 bias correction, and automated QC visualization.
+
+End-to-end structural MRI preprocessing framework:
+
+* SynthStrip-based brain extraction
+* MNI152 registration
+* N4 bias-field correction
+* Intensity normalization
+* Automated overlay-based QC reporting
+* Containerized and cluster-ready execution
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17503175.svg)](https://doi.org/10.5281/zenodo.17503175)
 
 ### [DTI Processing Pipeline](https://github.com/mhabbasiit/DTI) — `v1.0.0`
-Lightweight, end-to-end diffusion MRI preprocessing and quality control workflow.
+
+Lightweight, reproducible diffusion MRI preprocessing and QC framework:
+
+* Eddy-current and motion correction
+* Tensor fitting and diffusion feature extraction
+* Automated quality-control visualization
+* BIDS-compatible organization
+* Containerized execution
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17503170.svg)](https://doi.org/10.5281/zenodo.17503170)
 
 ### [fMRI Processing Pipeline](https://github.com/mhabbasiit/fMRI) — `v1.0.0`
-BIDS-compatible fMRI preprocessing pipeline with motion correction and QC reports.
+
+BIDS-compatible functional MRI preprocessing pipeline:
+
+* Motion correction
+* Registration and normalization
+* Automated QC reporting
+* BIDS-compatible workflow structure
+* Cluster-ready execution
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17503176.svg)](https://doi.org/10.5281/zenodo.17503176)
 
 ---
 
-## 🛠️ Engineering Principles
+## ⚙️ Engineering Principles
 
 All pipelines follow established research software engineering practices:
 
-- **Semantic versioning** with tagged releases
-- **Pinned dependencies** via conda/pip and Singularity images
-- **Containerized execution** (Docker, Singularity)
-- **Automated QC reports** with overlay visualizations
-- **Cluster-ready** Slurm execution scripts
-- **BIDS-compatible** input/output structure
-- **MIT licensed** for permissive reuse
+* **Semantic versioning** with tagged stable releases
+* **Pinned dependencies** for reproducible execution
+* **Containerized deployment** using Docker and Singularity
+* **Automated quality-control reports** with overlay visualizations
+* **BIDS-compatible** input/output organization
+* **Cluster-ready** Slurm execution workflows
+* **MIT License** for permissive academic reuse
+* **Zenodo DOI archiving** for citable releases
+
+---
+
+## 🧬 Focus Areas
+
+* Reproducible neuroimaging preprocessing pipelines
+* Automated MRI quality control
+* Clinical video and motion-analysis infrastructure
+* Standards-aware biomedical data engineering
+* Privacy-preserving clinical data processing
 
 ---
 
 ## 🏫 Research Affiliation
 
-**[Stanford Translational AI Lab](https://stai.stanford.edu/)** · School of Medicine · Department of Psychiatry & Behavioral Sciences
+**[Stanford Translational AI Lab (STAI)](https://stai.stanford.edu/)**
+School of Medicine · Department of Psychiatry & Behavioral Sciences
 PI: Ehsan Adeli, PhD
 
-These pipelines support ongoing AD/ADRD and Parkinson's disease imaging analyses across multiple NIH-funded studies in the Adeli lab.
+The pipelines and infrastructure developed here support ongoing AD/ADRD and Parkinson's disease imaging analyses across NIH-funded studies in the Adeli lab.
+
+---
+
+## 📚 Selected Contributions
+
+* Open-source MRI preprocessing and QC frameworks: sMRI, DTI, and fMRI
+* Scalable containerized neuroimaging workflows
+* Standards-aligned biomedical data pipelines
+* Automated validation and reporting systems
+* ClinicalMoVi: clinical video analysis framework in development
+* NeuroQA: brain MRI reasoning benchmark under review
 
 ---
 
 ## 📫 Contact
 
-- 📧 [your-email@stanford.edu]
-- 🔗 [Google Scholar](https://scholar.google.com/citations?user=YOUR_ID)
-- 🔗 [ORCID](https://orcid.org/YOUR_ID)
-- 🌐 [Personal Website](YOUR_WEBSITE)
+* 📧 [mabbasi@stanford.edu](mailto:mabbasi@stanford.edu)
+* 🌐 https://stanford.edu/~mabbasi/
+* 🔗 Google Scholar
+* 🔗 ORCID
